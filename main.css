@@ -220,6 +220,8 @@ body {
 .social__links:focus {
     background-color: var(--background-color-social);
     cursor: pointer;
+    animation: heart-beat 0.5s 0.1s 2 both;
+    aniamtion
 }
 
 
@@ -229,4 +231,13 @@ body {
 
 .github {
     padding: 0px;
+}
+
+@keyframes heart-beat {
+    25% {
+        transform: rotate(10deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
 }
