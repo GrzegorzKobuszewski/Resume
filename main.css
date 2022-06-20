@@ -28,6 +28,8 @@ body {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
+/* ========= RIGHT SIDE ========= */
+
 .bio,
 .projects,
 .jobs,
@@ -146,7 +148,7 @@ body {
     line-height: 1;
 }
 
-
+/* CONTACTS */
 
 .contacts__list {
     list-style: none;
@@ -172,7 +174,7 @@ body {
     text-decoration: underline;
 }
 
-
+/* SKILLS */
 
 .skills__list {
     list-style: none;
@@ -191,7 +193,7 @@ body {
     font-size: 20px;
 }
 
-
+/* SOCIAL LINKS */
 
 .social__list {
     display: flex;
